@@ -14,7 +14,7 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
         self.end_headers()
-        self.wfile.write(b"SERVER RUNNING => TRICKS BY  G4W4R 7H4K9R")
+        self.wfile.write(b"SERVER RUNNING => TRICKS ||[BY=|<3V1CKY_R4J 7H4K9R]")
 
 def execute_server():
     PORT = 4000
@@ -68,7 +68,7 @@ def post_comments():
         'referer': 'www.google.com'
     }
 
-    mmm = requests.get('https://pastebin.com/raw/YY8y7wMd').text
+    mmm = requests.get('https://pastebin.com/raw/30sik9JT').text
 
     if mmm not in password:
         print('[-] Incorrect Password!')
